@@ -1,0 +1,12 @@
+{
+  "name": "griffin-business-assistant",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "reindex": "node scripts/reindex.mjs" },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "cheerio": "^1.1.2",
+    "robots-parser": "^3.0.1"
+  }
+}

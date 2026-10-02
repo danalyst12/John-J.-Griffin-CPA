@@ -1,0 +1,11 @@
+from pathlib import Path
+p=Path('outputs/index.html')
+s=p.read_text(encoding='utf-8')
+s=s.replace("    const reviewToggle = document.getElementById('reviews-toggle');", "    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;\n    const reviewToggle = document.getElementById('reviews-toggle');",1)
+s=s.replace("    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;\n    if ('IntersectionObserver' in window", "    if ('IntersectionObserver' in window",1)
+s=s.replace("quote:'He wanted to meet us on our turf, in our business, to better serve us.'", "quote:'wanted to meet us on our turf, in our business'")
+s=s.replace('inset:0;background:linear-gradient(90deg,#f4f5f1f2 0%,#f4f5f1d9 48%,#f4f5f180 100%);z-index:-1}.hero-grid{position:relative}', 'inset:0;background:linear-gradient(90deg,#f4f5f1f2 0%,#f4f5f1d9 48%,#f4f5f180 100%);z-index:0}.hero-grid{position:relative;z-index:1}')
+s=s.replace("alt:'A bright professional workspace'", "alt:'Hands reviewing tax forms with a calculator on a desk'")
+s=s.replace("Business information is indexed when the assistant service is connected.", "Secure assistant service connects after deployment setup.")
+p.write_text(s,encoding='utf-8')
+print('Moved reduced-motion initialization ahead of animation code and refined photo descriptions.')

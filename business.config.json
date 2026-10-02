@@ -1,0 +1,28 @@
+{
+  "id": "john-joseph-griffin-cpa",
+  "name": "John Joseph Griffin, CPA, P.C.",
+  "websiteUrl": "https://www.johngriffincpa.com/",
+  "assistantName": "Griffin Business Assistant",
+  "voice": "Friendly, concise, direct, professional, and careful about verified facts.",
+  "location": "5240-B W Irving Park Rd, Chicago, IL 60641",
+  "phone": "+1-773-545-6750",
+  "email": "john@johngriffincpa.com",
+  "services": [
+    "Business accounting and bookkeeping",
+    "Tax preparation and planning",
+    "QuickBooks support",
+    "Payroll",
+    "Outsourced accounting and CFO support",
+    "New business advisory",
+    "Individual tax preparation",
+    "IRS and state tax notice assistance"
+  ],
+  "knownUnknowns": [
+    "Published service prices",
+    "Office opening hours",
+    "Appointment availability"
+  ],
+  "contactUrl": "#contact",
+  "directionsUrl": "https://maps.google.com/?q=5240-B+W+Irving+Park+Rd+Chicago+IL+60641",
+  "manualKnowledge": []
+}
